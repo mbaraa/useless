@@ -6,4 +6,7 @@ import "github.com/baraa-almasri/useless"
 
 ## This library is just useless!
 #### what doesn't it do?
-1. meme songs youtube player(uses some music source) 
+1. meme songs youtube player(uses some music source)
+2. random ASCII generator
+
+###### see pretty  much useless :)
