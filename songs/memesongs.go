@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-// a MemeSongs implements Songs and holds meme songs
+// MemeSongs implements Songs and holds meme songs urls
 type MemeSongs struct {
 	urls       []string
 	urlsByName map[string]string

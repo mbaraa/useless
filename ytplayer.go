@@ -6,7 +6,7 @@ import (
 	"runtime"
 )
 
-// a YTPlayer plays youtube songs using the system's default browser
+// YTPlayer plays youtube songs using the system's default browser
 type YTPlayer struct {
 	songSource songs.Songs
 }
