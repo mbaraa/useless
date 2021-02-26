@@ -6,7 +6,8 @@ import "github.com/baraa-almasri/useless"
 
 ## This library is just useless!
 #### what doesn't it do?
-1. meme songs youtube player(uses some music source)
-2. random ASCII generator
+1. `YTPlayer` meme songs youtube player(uses a music source `useless.Songs`)
+2. `RandASCII` random ASCII generator
+3. `StringsExtended` more strings functions! just the one so far :(
 
 ###### see pretty  much useless :)
