@@ -10,6 +10,11 @@ import (
 // MarkdownConverter is a CSV, Md bidirectional converter
 type MarkdownConverter struct{}
 
+// NewMarkdownConverter returns a csv <-> md converter
+func NewMarkdownConverter() *MarkdownConverter {
+	return &MarkdownConverter{}
+}
+
 // ConvertFromCSV converts a given csv file into an md formatted string
 // with the data from the csv file by adding elements between pipes
 // md is amazing isn't it??

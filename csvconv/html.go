@@ -10,6 +10,11 @@ import (
 // HTMLConverter is a CSV, HTML bidirectional converter
 type HTMLConverter struct{}
 
+// NewHTMLConverter returns a csv <-> html converter
+func NewHTMLConverter() *HTMLConverter {
+	return &HTMLConverter{}
+}
+
 // ConvertFromCSV converts a given csv file into an html formatted document
 // that has a table containing the data from the csv file, by magic well no
 // by putting all the csv data inside a nice looking html table
