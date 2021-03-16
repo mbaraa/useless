@@ -8,7 +8,7 @@ import "github.com/baraa-almasri/useless"
 #### what doesn't it do?
 1. `YTPlayer` meme songs youtube player(uses a music source `songs.Songs`)
 2. `RandASCII` random ASCII generator
-3. `StringsExtended` more strings functions! just the one so far :(
+3. `StringsExtended` more strings functions!
 4. `csvconv.CSVConverter` csv converter, so far just `csvconv.HTMLConverter` and `csvconv.MarkdownConverter`
 
 ###### see pretty  much useless :)
