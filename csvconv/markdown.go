@@ -22,7 +22,7 @@ func (m *MarkdownConverter) ConvertFromCSV(csvFile io.Reader) string {
 
 	columnsTitles, csvFields, err := getCSVData(csvFile)
 	if err != nil {
-		panic(err)
+		return ""
 	}
 
 	md := m.getTablePrefix(columnsTitles)
@@ -50,7 +50,7 @@ func (m *MarkdownConverter) ConvertFromCSV(csvFile io.Reader) string {
 func (m *MarkdownConverter) ConvertToCSV(markdownFile io.Reader) string {
 	md, readErr := ioutil.ReadAll(markdownFile)
 	if readErr != nil {
-		panic(readErr)
+		return ""
 	}
 	// final csv string
 	csv := ""

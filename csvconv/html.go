@@ -21,7 +21,7 @@ func NewHTMLConverter() *HTMLConverter {
 func (h *HTMLConverter) ConvertFromCSV(csvFile io.Reader) string {
 	columnsTitles, csvFields, err := getCSVData(csvFile)
 	if err != nil {
-		panic(err)
+		return ""
 	}
 
 	// html page
@@ -50,7 +50,7 @@ func (h *HTMLConverter) ConvertFromCSV(csvFile io.Reader) string {
 func (h *HTMLConverter) ConvertToCSV(htmlFile io.Reader) string {
 	html, readErr := ioutil.ReadAll(htmlFile)
 	if readErr != nil {
-		panic(readErr)
+		return ""
 	}
 	// final csv string
 	titles := h.getTableTitles(string(html)) // titles :)
