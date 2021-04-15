@@ -10,5 +10,6 @@ import "github.com/baraa-almasri/useless"
 2. `RandASCII` random ASCII generator
 3. `StringsExtended` more strings functions!
 4. `csvconv.CSVConverter` csv converter, so far just `csvconv.HTMLConverter` and `csvconv.MarkdownConverter`
+5. `UniqueID` a somehow unique id generator :)
 
 ###### see pretty  much useless :)
