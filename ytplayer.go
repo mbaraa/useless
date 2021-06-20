@@ -1,7 +1,7 @@
 package useless
 
 import (
-	"github.com/baraa-almasri/useless/songs"
+	"github.com/mbaraa/useless/songs"
 	"os/exec"
 	"runtime"
 )

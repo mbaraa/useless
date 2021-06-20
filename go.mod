@@ -1,3 +1,3 @@
-module github.com/baraa-almasri/useless
+module github.com/mbaraa/useless
 
 go 1.15
